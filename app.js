@@ -4,11 +4,8 @@ wapp.config(function($routeProvider) {
     .when("/", {
         templateUrl : "main.html"
     })
-    .when("/london", {
-        templateUrl : "london.htm",
-    })
-    .when("/paris", {
-        templateUrl : "paris.htm",
+    .when("/city/:ID", {
+        templateUrl : "city.html",
     });
 });
 
