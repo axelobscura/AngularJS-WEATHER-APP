@@ -23,6 +23,8 @@ wapp.directive('weather', ['$http', function($http) {
               <p>WEATHER STATE: {{ istambul.weather_state_name + ', ' + istambul.weather_state_abbr }}</p>
               <p>TEMPERATURE: {{ istambul.the_temp }}</p>
               <p>HUMIDITY: {{ istambul.humidity }}</p>
+              <p>MIN TEMPERATURE: {{ istambul.min_temp }}</p>
+              <p>MAX TEMPERATURE: {{ istambul.max_temp }}</p>
             </li>
           </ul>
     `, //prints the data
