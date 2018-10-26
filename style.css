@@ -13,11 +13,14 @@ body { max-width: 100%; margin-left: auto; margin-right: auto; background: #1d1f
 body:after { content: " "; display: block; clear: both; }
 
 h1 { color: #fff; font-weight: 100;}
+h2 { color: #D2D2D2; font-weight: 100; text-align: center; border-bottom: 1px solid #444; padding-bottom: 10px;}
+ul { list-style: none;}
+ul li { color: #fff; font-weight: 100;border-bottom: 2px solid #ff0000;}
+ul li p { font-weight: 100; margin: 0; padding: 7px;}
 
 .input { margin-top: 10px; }
 .input input { color: #222; border: none; line-height: 2; font-size: 2em; padding: 10px; border-radius: 0.25em;  width: 100%;}
 .input input:focus { border: none; outline: none; }
-h1 { text-align: center; margin-bottom: 100px; }
 .forecast { text-align: center; }
 .forecast .today { width: 50%; float: left; margin-left: 25%; margin-right: 25%; background: #1d1f20; margin-bottom: 100px; }
 .forecast div:nth-child(2) { display: none; }
